@@ -1,0 +1,17 @@
+/*@font-face {*/
+  /*font-family: 'Montserrat';*/
+  /*[> use a relative path to the local font file in `url()`. <]*/
+  /*src: url('./Montserrat-regular.otf');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+  /*font-display: swap;*/
+/*}*/
+
+@font-face {
+  font-family: 'Quicksand';
+  /* use a relative path to the local font file in `url()`. */
+  src: url('./Quicksand-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
