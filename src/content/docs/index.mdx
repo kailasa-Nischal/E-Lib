@@ -1,23 +1,40 @@
 ---
 title: E-library
-description: Get started building your docs site with Starlight.
+description: A portal which aggregates free resources across various fields.
 template: doc
 tableOfContents: false
 prev: false
 next: false
-  tagline: "Welcome to our E-library, where the boundless realm of knowledge meets the convenience of the digital age"
-    file: ../../assets/houston.webp
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, Steps } from '@astrojs/starlight/components';
 
-## Next steps
+This platform is build for aggregatation of free rescoures across various stearms and multiple professions, 
+Make them accesible to everyone. This platform is made open-source so as to support valuable contibutions for further growth.
 
-<CardGrid>
-	<Card title="Suggestions" icon="pencil">
-		If you have any suggestions then [mail]{kailashnischal@gmail.com} us.
-	</Card>
-	<Card title="Want to Contribute" icon="add-document">
-		 fill [this]{https://forms.gle/W59k42MmdfGuLbSZ6} form
-	</Card>
-</CardGrid>
+## Contribution
+
+If you are familiar with github go ahead and follow the steps below, else fill out this [form](https://forms.gle/W59k42MmdfGuLbSZ6).
+
+### Github
+---
+    <Steps>
+        1. Go ahead and fork this [repo](https://github.com/NarayanaRavada/E-Lib)
+
+        2. Clone the forked repo to you local machine.
+
+            ```bash
+            git clone your-forked-repo-link
+            ```
+
+        3. Add or change the resources that you would like to contribute. changes should be made in `src/content/docs`
+           in respective category or create a new folder if category does not exist.
+
+        4. push the changes to forked repo and make a pull request, we verify it and merge.
+    </Steps>
+
+<Card title="Suggestions" icon="">
+    We are open to all kinds of suggestions, please feel free to contact via [mail](mailto:kailashnischal@gmail.com).
+</Card>
+
+

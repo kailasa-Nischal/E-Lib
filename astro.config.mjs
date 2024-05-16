@@ -14,6 +14,7 @@ export default defineConfig({
       ],
       social: {
         github: 'https://github.com/NarayanaRavada/E-Lib.git',
+        email: 'mailto:kailashnischal@gmail.com'
       },
     }),
   ],
